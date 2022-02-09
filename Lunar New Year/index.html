@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Chinese New Year's Day</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="my.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="title">
+        <div id="title-wrapper">
+            <h1>
+                <b>Chinese New Year's Day</b>
+            </h1>
+        </div>
+    </div>
+    <hr style="background: rgb(202, 36, 36);">
+
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist">
+            <li >
+                <a href="#Banquet" class="nav-link avtive" data-toggle="tab">New Year's Eve Dinner</a>
+            </li>
+            <li>
+                <a href="#LuckyMoney" class="nav-link" data-toggle="tab">LuckyMoney</a>
+            </li>
+            <li>
+                <a href="#Custom" class="nav-link" data-toggle="tab">Custom</a>
+            </li>
+            <li>
+                <a href="#Greeting" class="nav-link" data-toggle="tab">New year wishes</a>
+            </li>
+        </ul>
+
+        <div id=‘tab-content’ class="tab-content">
+                <iframe id="Banquet" src="Banquet.html" class="tab-iframe container tab-pane active"></iframe>
+    
+                <iframe id="LuckyMoney" src="LuckyMoney.html"  class="tab-iframe container tab-pane fade"></iframe>
+
+                <iframe id="Custom" src="Custom.html" class="tab-iframe container tab-pane fade"></iframe>
+
+                <iframe id="Greeting" src="Greeting.html" class="tab-iframe container tab-pane fade"></iframe>
+        </div>
+    </div>
+</body>
