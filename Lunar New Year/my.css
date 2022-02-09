@@ -1,0 +1,45 @@
+.title-img{
+    max-width: 100px;
+}
+b,li,a{
+    color: rgb(202, 36, 36);
+}
+h1{
+    top: 50%;
+    text-align: center;
+    font-size:2.7rem;
+}
+#title{
+    background-image: url("images/title.png");
+    
+    background-position: 50%;
+    background-repeat: no-repeat;
+    
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 40px;
+}
+#title-wrapper{
+    vertical-align: center;
+}
+p {
+    background-color: white; 
+    color: black; 
+    line-height: 25px; 
+    text-align: justify;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+.tab-iframe{
+    height: 600px;
+    border: 0;
+}
+p{
+    font-size: 1.2rem;
+}
+.wishes-img{
+    max-width: 95%;
+}
